@@ -1,7 +1,6 @@
 import { NextResponse } from 'next/server'
 
 import { NavLinkType } from '@/app/types/navlink'
-import { FooterLinkType } from '@/app/types/footerlinks'
 
 const NavLinkData: NavLinkType[] = [
   {

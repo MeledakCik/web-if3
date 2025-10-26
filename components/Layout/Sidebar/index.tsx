@@ -1,6 +1,6 @@
 'use client'
 
-import { Calendar, Home, Inbox, Search, Settings, GraduationCap } from "lucide-react"
+import { UserCheck2, Home, Image, BookAIcon, GraduationCap, Library , TestTubes} from "lucide-react"
 import {
     Sidebar,
     SidebarContent,
@@ -14,16 +14,17 @@ import {
 import Link from "next/link"
 
 const items = [
-    { title: "Beranda", url: "#", icon: Home },
-    { title: "Pesan", url: "#", icon: Inbox },
-    { title: "Kalender", url: "#", icon: Calendar },
-    { title: "Pencarian", url: "#", icon: Search },
-    { title: "Pengaturan", url: "#", icon: Settings },
+    { title: "Dashboard", url: "#", icon: Home },
+    { title: "Aib Kelas", url: "/class/aib", icon: UserCheck2 },
+    { title: "Gambar Kelas", url: "/class/kelas", icon: Image },
+    { title: "Kurikulum", url: "/class/kurikulum", icon: TestTubes },
+    { title: "Materi", url: "/class/materi", icon: Library },
+    { title: "Tugas", url: "/class/tugas", icon: BookAIcon },
 ]
 
 export function AppSidebar() {
     return (
-        <Sidebar className="w-64 bg-gradient-to-b from-blue-50 via-white to-blue-50 border-r border-blue-100 shadow-md">
+        <Sidebar className="w-64 bg-blue-400 shadow-md">
             <SidebarContent>
                 {/* Header */}
                 <div className="flex items-center justify-center py-6 border-b border-blue-200">

@@ -4,6 +4,21 @@
 :root {
   color-scheme: light dark;
 }
+/* Custom scrollbar */
+.card-content::-webkit-scrollbar {
+  width: 8px;
+}
+
+.card-content::-webkit-scrollbar-track {
+  background: #f3f3f3; /* warna cerah */
+}
+
+.card-content::-webkit-scrollbar-thumb {
+  background-color: #60a5fa; /* biru cerah */
+  border-radius: 10px;
+  border: 2px solid #f3f3f3; /* memberi jarak */
+}
+
 
 @custom-variant dark (&:is(.dark *));
 

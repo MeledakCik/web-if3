@@ -11,8 +11,6 @@ const Header: React.FC = () => {
   const [navlink, setNavlink] = useState<NavLinkType[]>([])
   const [navbarOpen, setNavbarOpen] = useState(false)
   const [sticky, setSticky] = useState(false)
-  const signInRef = useRef<HTMLDivElement>(null)
-  const signUpRef = useRef<HTMLDivElement>(null)
   const mobileMenuRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
@@ -90,7 +88,7 @@ const Header: React.FC = () => {
         {/* Tombol kanan */}
         <div className="flex items-center gap-4">
           <Link
-            href="/login"
+            href="/class/aib"
             className={`hidden xl:block px-5 py-2 rounded-lg font-semibold border transition-all duration-300 ${sticky
               ? 'border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white'
               : 'border-blue-400 text-blue-800 hover:bg-white hover:text-blue-600'
@@ -99,7 +97,6 @@ const Header: React.FC = () => {
             Masuk
           </Link>
 
-          {/* Tombol Mobile */}
           <button
             onClick={() => setNavbarOpen(!navbarOpen)}
             className="block xl:hidden p-2 rounded-lg hover:bg-white/10"
@@ -158,6 +155,13 @@ const Header: React.FC = () => {
               className="w-full px-4 py-2 rounded-xl bg-white/70 placeholder:text-gray-500 text-blue-900 border border-gray-200 focus:border-blue-400 outline-none backdrop-blur-sm"
             />
           </div>
+          <Link
+            href="/class/aib"
+            className="hidden xl:block px-5 py-2 rounded-lg font-semibold border transition-all duration-300 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white"
+            onClick={() => setNavbarOpen(false)}
+          >
+            Masuk
+          </Link>
           <Link
             href="/#contact"
             className="mt-6 px-4 py-2 bg-blue-600 text-white rounded-xl font-semibold hover:bg-blue-700 transition-all duration-300 w-full text-center shadow-sm"
