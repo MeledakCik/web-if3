@@ -1,38 +1,66 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌐 WEB CLASS INFORMATIKA III (IF-3)
 
-## Getting Started
+Selamat datang di repository **WEB CLASS IF-3**!  
+Di dalam repo ini, kamu dapat menemukan berbagai aktivitas dan informasi seputar kelas kami — mulai dari tugas, project, dokumentasi pembelajaran, dan eksperimen web development lainnya.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🧑‍💻 Tentang Kami
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Kami adalah mahasiswa Informatika yang tertarik mendalami dunia teknologi, khususnya:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Web Development
+- Cybersecurity & Ethical Hacking
+- Software Engineering
+- Problem Solving & Troubleshooting
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Tujuan kami adalah belajar sambil berkarya — membangun sesuatu yang berguna, elegan, dan berdampak.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🚀 Teknologi yang Kami Gunakan
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+| Bidang | Teknologi |
+|--------|-----------|
+| Bahasa Pemrograman | JavaScript, Python, PHP |
+| Frontend | React.js, Next.js, Tailwind CSS, HTML/CSS |
+| Backend | Node.js, Express.js, Laravel |
+| Tools & Support | Git & GitHub, VS Code, Postman, Figma |
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 📌 Fitur yang Akan Dikembangkan
+- ✅ Halaman profil kelas  
+- ✅ Daftar tugas & materi pembelajaran  
+- ⏳ Dashboard interaktif siswa  
+- ⏳ Sistem upload & manajemen tugas  
+- ⏳ Chatbot Asisten Kelas (AI Integration)  
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+*(Daftar akan terus diperbarui mengikuti progress kelas)*
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# web-if3
-# web-if3
+---
+
+## 🧠 Keahlian Tim
+- Problem Solving & Critical Thinking
+- Responsive Web Design
+- REST API Development & Integration
+- Database Management (MySQL, MongoDB)
+- UI/UX Basic Design
+
+---
+
+## 📬 Kontak
+
+Jika ingin terhubung atau berdiskusi — kami selalu terbuka!  
+
+- 📧 Email: Private  
+- 💼 LinkedIn: https://www.linkedin.com/in/muhammad-kasyaf-anugrah-576460314/  
+- 🐙 GitHub: https://github.com/MeledakCik  
+
+---
+
+> “Bangun sesuatu yang membuat orang lain bertanya,  
+> **‘Siapa yang membuat ini?’**  
+> Dan biarkan jawabannya: **KAMI dari IF-3** 🚀✨
+
+---
