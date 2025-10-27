@@ -49,11 +49,11 @@ Tujuan kami adalah belajar sambil berkarya — membangun sesuatu yang berguna, e
 
 ---
 
-## 📬 Kontak
+## 📬 Kontak OWNER
 
 Jika ingin terhubung atau berdiskusi — kami selalu terbuka!  
 
-- 📧 Email: Private  
+- 📧 Email: kakangdanadam@gmail.com  
 - 💼 LinkedIn: https://www.linkedin.com/in/muhammad-kasyaf-anugrah-576460314/  
 - 🐙 GitHub: https://github.com/MeledakCik  
 
